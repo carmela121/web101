@@ -19,8 +19,18 @@
 	
 </head>
 <body>
-	<header id="main-header" class="global-header mod-globalheader mobile">
-		<div class="header-main">
+
+	<div class="container-padded">
+		<header id="main-header" class="global-header mod-globalheader mobile">
+
+	<div class="header-main">
+		
+			<div class="form-item">
+				<div class="input-wrapper">
+					<input class="input" id="input-text" type="text" placeholder="Search for policies, guidelines, learning and more...">
+					<button type="submit" class="btn-search btn btn-primary btn-sm">Search</button>
+				</div>
+			</div>
 		<div class="header-container">
 			<div class="logo-section">
 				<!-- Standard/Static B Menu Bar -->
@@ -33,39 +43,927 @@
 					</a>
 				</div>
 			</div>
-			<div class="search-bar">
-				<!-- Keep label for accessibility on screen readers -->
-				<form action="" method="GET">
-					<label for="search-input" class="access">Search</label>
-					<div class="search-input-wrapper">
-						<input id="search-input" type="text" placeholder="Enter query" autocomplete="off" />
-					</div>
-					<a href="#" role="button" aria-describedby="ariaClearField" class="search-clear">Clear search field</a>
-					<button type="submit" class="btn-search btn btn-primary btn-sm">Search</button>
-					<button class="search-close">Cancel<span class="access">Search</span></button>
-				</form>
-				<div class="headersearch">
-					<div class="headersearch-container">
-						<div class="headersearch-body">
-							<div class="headersearch-heading">Optional results heading</div>
-							<div class="headersearch-results">
-								<ul>
-									<li class="headersearch-item">
-										<a href="#" class="headersearch-link">
-											<span class="headersearch-highlight">This is</span> a result
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		
+		
+		
+			<div class="utilities">
+				<img src="images/avatar.jpeg" alt="Avatar" class="avatar"><span>Carmen</span> 
+				<!-- <a href="#" class="login btn btn-primary btn-sm">Log in</a>
+				<a href="#register" class="register">Register</a> -->
+				<ul>
+					
+				
+					<li class="hamburger"><a href="#menu" aria-describedby="aria-tapexpand"><span>Menu</span></a></li>
+				</ul>
+				<p id="aria-tapexpand" class="access">Please tap to expand this section</p>
+			</div>
 		</div>
 	</div>
-	
+	<div class="header-nav">
+		<div class="header-container">
+			<nav id="main-nav" class="main-nav" role="navigation">
+				<ul role="menubar">
+					<li aria-haspopup="true" data-component-type="MenuItemLevel1">
+						<a href="#" aria-expanded="false">Bank <span class="access">menu item level 1</span></a>
+						<div class="nav-l2" aria-hidden="true" style="display: none;">
+
+							<ul>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Bank accounts <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_blank" title="Current accounts pks">Current accounts pks <span class="access">menu item level 3</span></a>
+											</li>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Barclays Bank Account">Barclays Bank Account <span class="access">menu item level 3</span></a>
+											</li>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Premier bank account">Premier bank account <span class="access">menu item level 3</span></a>
+											</li>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Business bank accounts">Business bank accounts <span class="access">menu item level 3</span></a>
+											</li>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Switch to Barclays">Switch to Barclays <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Rewards and offers <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Barclays Blue rewards">Barclays Blue rewards <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Cashback and Savings Offers">Cashback and Savings Offers <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Customise your account">Customise your account <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Free internet security">Free internet security <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="http://www.bbc.co.uk" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow"
+										role="heading">Account services <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="/security/" target="_self" title="Security">Security <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Payment services <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Explore all payment services">Explore all payment services <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Debit cards">Debit cards <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Regular payments">Regular payments <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="International payments">International payments <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Pingit">Pingit <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+							</ul>
+							</div>
+							</li>
+
+
+							<li aria-haspopup="true" data-component-type="MenuItemLevel1">
+								<a href="#" aria-expanded="false">Borrow <span class="access">menu item level 1</span></a>
+								<div class="nav-l2" aria-hidden="true" style="display: none;">
+
+							<ul>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Loans and overdraft <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="All loans products">All loans products <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Personal loans">Personal loans <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Car loans">Car loans <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Debt consolidation">Debt consolidation <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Home improvements">Home improvements <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Top up your loan">Top up your loan <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Overdraft">Overdraft <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Credit cards <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="All credit cards">All credit cards <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Check your eligibility">Check your eligibility <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Balance-transfer credit cards">Balance-transfer credit cards <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Purchase credit card">Purchase credit card <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Build your credit limit">Build your credit limit <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Earn rewards">Earn rewards <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Log in to mybarclaycard">Log in to mybarclaycard <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Tips <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Improve your credi rating">Improve your credi rating <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Ways to borrow">Ways to borrow <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Debt management">Debt management <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Tools <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Budget planner">Budget planner <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Credit Manager">Credit Manager <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Loan repayment calculator">Loan repayment calculator <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+							</ul>
+							</div>
+							</li>
+
+
+							<li aria-haspopup="true" data-component-type="MenuItemLevel1">
+								<a href="#" aria-expanded="false">Save and invest <span class="access">menu item level 1</span></a>
+								<div class="nav-l2" aria-hidden="true" style="display: none;">
+
+							<ul>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Cash ISAs <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Compare ISA accounts">Compare ISA accounts <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Instant cash ISA">Instant cash ISA <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Flexible cash ISA">Flexible cash ISA <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Help to Buy: ISA">Help to Buy: ISA <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Guide to ISAs">Guide to ISAs <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Savings <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Compare Savings accounts">Compare Savings accounts <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Everyday Saver">Everyday Saver <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Children's Instant Saver">Children's Instant Saver <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Children's Regular Saver">Children's Regular Saver <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="All instest rates">All instest rates <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Guide to Savings">Guide to Savings <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Bonds <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Compare Bonds accounts">Compare Bonds accounts <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Fixed-rate bond">Fixed-rate bond <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Flexible bond">Flexible bond <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Premier Flexible bond">Premier Flexible bond <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Investments <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="All Investment Products">All Investment Products <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Inviestment Account">Inviestment Account <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Investment ISA">Investment ISA <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+							</ul>
+							</div>
+							</li>
+
+
+							<li aria-haspopup="true" data-component-type="MenuItemLevel1">
+								<a href="#" aria-expanded="false">Mortgage <span class="access">menu item level 1</span></a>
+								<div class="nav-l2" aria-hidden="true" style="display: none;">
+
+							<ul>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Our Mortgages <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="All mortgages">All mortgages <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="First-time buyers">First-time buyers <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Remortgage with us">Remortgage with us <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Buy-to-let">Buy-to-let <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Existing customers">Existing customers <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Help to Buy schemes">Help to Buy schemes <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Products <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Mrtgage rates and charges">Mrtgage rates and charges <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Fixed-rate mortgages">Fixed-rate mortgages <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Tracker mortgages">Tracker mortgages <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Offset mortgages">Offset mortgages <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Buy-to-let mortgages">Buy-to-let mortgages <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Family Springboard Mortgage">Family Springboard Mortgage <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Great Escape mortgages">Great Escape mortgages <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Tools <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Mortgage calculator">Mortgage calculator <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Base Rate Information">Base Rate Information <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Offset mortgage calculator">Offset mortgage calculator <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Barclays Homeowner app">Barclays Homeowner app <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Apply <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="How to get a mortgage">How to get a mortgage <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Agreement in Principle (AiP)">Agreement in Principle (AiP) <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+							</ul>
+							</div>
+							</li>
+
+
+							<li aria-haspopup="true" data-component-type="MenuItemLevel1">
+								<a href="#" aria-expanded="false">Insure <span class="access">menu item level 1</span></a>
+								<div class="nav-l2" aria-hidden="true" style="display: none;">
+
+							<ul>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Travel insurance <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Compare our travel insurance products">Compare our travel insurance products <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Single or annual multi-trip insurance">Single or annual multi-trip insurance <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Travel Pack (current account add-on)">Travel Pack (current account add-on) <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Travel Pack Plus (current account add-on)">Travel Pack Plus (current account add-on) <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Home insurance <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="All home insurance products">All home insurance products <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Building insurance">Building insurance <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Contents insurance">Contents insurance <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Finer home insurance">Finer home insurance <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Student contents cover">Student contents cover <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Starter contents cover">Starter contents cover <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Life insruance <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="All life insurance products">All life insurance products <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Life insurance (from Aviva)">Life insurance (from Aviva) <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Life insurance (mortgage holders)">Life insurance (mortgage holders) <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Life insurance with critical illness cover">Life insurance with critical illness cover <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+
+
+
+
+								</li>
+							</ul>
+							</div>
+							</li>
+
+
+							<li aria-haspopup="true" data-component-type="MenuItemLevel1">
+								<a href="#" aria-expanded="false">Service and support <span class="access">menu item level 1</span></a>
+								<div class="nav-l2" aria-hidden="true" style="display: none;">
+
+							<ul>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Help and support <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Help and FAQs">Help and FAQs <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Lost and stolen card">Lost and stolen card <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Fraud prevention">Fraud prevention <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Find a branch">Find a branch <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Contact us">Contact us <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Service status">Service status <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Account services <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Online Banking">Online Banking <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Barclays Mobile Banking">Barclays Mobile Banking <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Barclays Pingit">Barclays Pingit <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Digital Eagles">Digital Eagles <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Eagle Labs">Eagle Labs <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+
+
+
+
+
+
+
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Tools <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title=" Trading abroad checklist"> Trading abroad checklist <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="FX app">FX app <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="IBAN generator">IBAN generator <span class="access">menu item level 3</span></a>
+											</li>
+
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Digital confidence">Digital confidence <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+
+
+
+
+
+
+								</li>
+								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
+									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Tips and guides <span class="access">menu item level 2</span></a>
+									<div class="nav-l3" aria-hidden="true">
+										<ul>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Barclays Journal">Barclays Journal <span class="access">menu item level 3</span></a>
+											</li>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Going to uni">Going to uni <span class="access">menu item level 3</span></a>
+											</li>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Managing your money">Managing your money <span class="access">menu item level 3</span></a>
+											</li>
+											<li aria-controls="contentSection" data-component-type="MenuItemLevel3">
+												<a href="http://www.barclays.co.uk/PersonalBanking/P1242557947640" target="_self" title="Christmas time">Christmas time <span class="access">menu item level 3</span></a>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
 </header>
+
+	
+	</div>
+
+
+
+
 
 </body>
 </html>

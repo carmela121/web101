@@ -1,3 +1,54 @@
 body {
   background-color: #00395D;
+  padding: 0;
+}
+
+body.desktop.segment-visible {
+	padding-top: 0;
+}
+body.mobile.segment-visible, body.mobile-nav.segment-visible {
+	padding-top: 0;
+}
+.container-padded {
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.overlay-light-box {
+	background: #00395D;
+}
+
+.form-item {
+	margin-bottom: 0px;
+}
+.global-header {
+	position: relative;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.input {
+    margin-left: 25%;
+    color: #0076b6;
+    width: 50%;
+    border: 1px solid #bfbfbf;
+    border-radius: 50px;
+    padding: 9px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.global-header.desktop .btn-search, .global-header.minimised .btn-search {
+	position: relative;
+	right: 100px;
 }

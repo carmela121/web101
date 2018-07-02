@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="bdl/css/bdl.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
@@ -20,18 +21,19 @@
 </head>
 <body>
 
-	<div class="container-padded">
+
 		<header id="main-header" class="global-header mod-globalheader mobile">
 
 	<div class="header-main">
 		
-			<div class="form-item">
+			
+		<div class="header-container">
+						<div class="form-item">
 				<div class="input-wrapper">
 					<input class="input" id="input-text" type="text" placeholder="Search for policies, guidelines, learning and more...">
 					<button type="submit" class="btn-search btn btn-primary btn-sm">Search</button>
 				</div>
 			</div>
-		<div class="header-container">
 			<div class="logo-section">
 				<!-- Standard/Static B Menu Bar -->
 				<a href="#" class="back"><span>Back</span></a>
@@ -47,7 +49,10 @@
 		
 		
 			<div class="utilities">
-				<img src="images/avatar.jpeg" alt="Avatar" class="avatar"><span>Carmen</span> 
+				<div class="profile-picture">
+					<div><img src="images/avatar.jpeg" alt="Avatar" class="avatar"><span class="button__badge">35</span></div>
+					<div class="profile-name"><span>Carmen Carmona-Rodriguez</span></div>
+				</div>
 				<!-- <a href="#" class="login btn btn-primary btn-sm">Log in</a>
 				<a href="#register" class="register">Register</a> -->
 				<ul>
@@ -55,6 +60,8 @@
 				
 					<li class="hamburger"><a href="#menu" aria-describedby="aria-tapexpand"><span>Menu</span></a></li>
 				</ul>
+
+				
 				<p id="aria-tapexpand" class="access">Please tap to expand this section</p>
 			</div>
 		</div>
@@ -63,8 +70,11 @@
 		<div class="header-container">
 			<nav id="main-nav" class="main-nav" role="navigation">
 				<ul role="menubar">
+
+					<!-- TIME OFF BEGIN -->
+
 					<li aria-haspopup="true" data-component-type="MenuItemLevel1">
-						<a href="#" aria-expanded="false">Bank <span class="access">menu item level 1</span></a>
+						<a href="#" aria-expanded="false">Time off <span class="access">menu item level 1</span></a>
 						<div class="nav-l2" aria-hidden="true" style="display: none;">
 
 							<ul>
@@ -112,18 +122,8 @@
 										</ul>
 									</div>
 
-
-
-
-
-
 								</li>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
 
 
 									<a href="#" data-nav-link="http://www.bbc.co.uk" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow"
@@ -136,19 +136,8 @@
 										</ul>
 									</div>
 
-
-
-
-
-
 								</li>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
-
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Payment services <span class="access">menu item level 2</span></a>
 									<div class="nav-l3" aria-hidden="true">
@@ -175,29 +164,20 @@
 										</ul>
 									</div>
 
-
-
-
-
-
 								</li>
 							</ul>
-							</div>
-							</li>
+						</div>
+					</li>
+					<!-- TIME OFF END -->
 
+					<!-- PAY BEGIN -->
 
-							<li aria-haspopup="true" data-component-type="MenuItemLevel1">
-								<a href="#" aria-expanded="false">Borrow <span class="access">menu item level 1</span></a>
-								<div class="nav-l2" aria-hidden="true" style="display: none;">
+					<li aria-haspopup="true" data-component-type="MenuItemLevel1">
+						<a href="#" aria-expanded="false">Pay <span class="access">menu item level 1</span></a>
+							<div class="nav-l2" aria-hidden="true" style="display: none;">
 
 							<ul>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
-
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Loans and overdraft <span class="access">menu item level 2</span></a>
 									<div class="nav-l3" aria-hidden="true">
@@ -231,20 +211,8 @@
 											</li>
 										</ul>
 									</div>
-
-
-
-
-
-
 								</li>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
-
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Credit cards <span class="access">menu item level 2</span></a>
 									<div class="nav-l3" aria-hidden="true">
@@ -279,18 +247,8 @@
 										</ul>
 									</div>
 
-
-
-
-
-
 								</li>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
 
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Tips <span class="access">menu item level 2</span></a>
@@ -310,19 +268,8 @@
 										</ul>
 									</div>
 
-
-
-
-
-
 								</li>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
-
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Tools <span class="access">menu item level 2</span></a>
 									<div class="nav-l3" aria-hidden="true">
@@ -341,29 +288,22 @@
 										</ul>
 									</div>
 
-
-
-
-
-
 								</li>
 							</ul>
-							</div>
-							</li>
+						</div>
+					</li>
+
+					<!-- PAY END -->
+
+					<!-- BENEFITS BEGIN -->
 
 
-							<li aria-haspopup="true" data-component-type="MenuItemLevel1">
-								<a href="#" aria-expanded="false">Save and invest <span class="access">menu item level 1</span></a>
+					<li aria-haspopup="true" data-component-type="MenuItemLevel1">
+								<a href="#" aria-expanded="false">Benefits <span class="access">menu item level 1</span></a>
 								<div class="nav-l2" aria-hidden="true" style="display: none;">
 
 							<ul>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
-
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Cash ISAs <span class="access">menu item level 2</span></a>
 									<div class="nav-l3" aria-hidden="true">
@@ -389,20 +329,8 @@
 											</li>
 										</ul>
 									</div>
-
-
-
-
-
-
 								</li>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
-
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Savings <span class="access">menu item level 2</span></a>
 									<div class="nav-l3" aria-hidden="true">
@@ -433,19 +361,8 @@
 										</ul>
 									</div>
 
-
-
-
-
-
 								</li>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
-
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Bonds <span class="access">menu item level 2</span></a>
 									<div class="nav-l3" aria-hidden="true">
@@ -467,20 +384,8 @@
 											</li>
 										</ul>
 									</div>
-
-
-
-
-
-
 								</li>
 								<li aria-haspopup="true" data-component-type="MenuItemLevel2">
-
-
-
-
-
-
 
 									<a href="#" data-nav-link="#" aria-describedby="ariaOpenConfirm ariaLeftRightArrowMoveBetweenHeading ariaUpDownArrow" role="heading">Investments <span class="access">menu item level 2</span></a>
 									<div class="nav-l3" aria-hidden="true">
@@ -498,20 +403,14 @@
 											</li>
 										</ul>
 									</div>
-
-
-
-
-
-
 								</li>
 							</ul>
-							</div>
-							</li>
+						</div>
+					</li>
 
 
 							<li aria-haspopup="true" data-component-type="MenuItemLevel1">
-								<a href="#" aria-expanded="false">Mortgage <span class="access">menu item level 1</span></a>
+								<a href="#" aria-expanded="false">Career <span class="access">menu item level 1</span></a>
 								<div class="nav-l2" aria-hidden="true" style="display: none;">
 
 							<ul>
@@ -957,12 +856,12 @@
 		</div>
 	</div>
 </header>
-
+<div style="height: 900px; background: #fff; margin-top: 40px"></div>
 	
-	</div>
+	
 
 
-
+<footer></footer>
 
 
 </body>

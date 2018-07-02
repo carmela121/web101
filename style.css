@@ -1,14 +1,8 @@
 body {
   background-color: #00395D;
-  padding: 0;
+
 }
 
-body.desktop.segment-visible {
-	padding-top: 0;
-}
-body.mobile.segment-visible, body.mobile-nav.segment-visible {
-	padding-top: 0;
-}
 .container-padded {
     width: 100%;
     padding-right: 15%;
@@ -19,24 +13,45 @@ body.mobile.segment-visible, body.mobile-nav.segment-visible {
 }
 
 .overlay-light-box {
-	background: #00395D;
+    background: #00395D;
 }
 
 .form-item {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
+
+   
 }
-.global-header {
-	position: relative;
+.profile-picture {
+    display: inline-flex;
 }
 
 .avatar {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
+
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    border: 1px solid #00395D;
+
+}
+.button__badge {
+
+    background-color: #fa3e3e;
+    border-radius: 50%;
+    color: white;
+   line-height: 18px;
+    font-weight: bold;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+
+    margin-left: -11px;
+    font-size: 9px;
+    position: absolute;
+
 }
 
 .input {
+    margin-top:16px;
     margin-left: 25%;
     color: #0076b6;
     width: 50%;
@@ -48,7 +63,32 @@ body.mobile.segment-visible, body.mobile-nav.segment-visible {
     appearance: none;
 }
 
+.global-header .logo-section .logo {
+    margin: -36px 0;
+    display: flex;
+}
+.global-header.minimised .logo-section .logo {
+    margin: -45px 0;
+}
 .global-header.desktop .btn-search, .global-header.minimised .btn-search {
-	position: relative;
-	right: 100px;
+    position: relative;
+    right: 100px;
+}
+
+.global-header.mobile .utilities {
+    right: 60px;
+    top: 3px;
+}
+
+.profile-name {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+@media (max-width: 1439px){
+.global-header.desktop .utilities {
+    right: 100px;
+    top: 15px;
+    }
 }
